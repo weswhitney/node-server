@@ -2,7 +2,7 @@ var http = require('http');
 
 var server = http.createServer(function(req, res) {
     if(req.url == '/kittens/') {
-        res.end('Kittens! Yay!');
+        res.end("kittens yay");
     }
     if(req.url == '/turtles/') {
         res.end('I like turtles');
